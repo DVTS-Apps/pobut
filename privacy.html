@@ -26,7 +26,7 @@
 <body>
 <main>
   <h1>Pobut</h1>
-  <div class="muted">by DVTS · Політика конфіденційності / Privacy Policy · Чинна з 15.11.2026, оновлено 25.11.2026 / Effective November 15, 2026, updated November 25, 2026</div>
+  <div class="muted">by DVTS · Політика конфіденційності / Privacy Policy · Чинна з 15.11.2026, оновлено 26.11.2026 / Effective November 15, 2026, updated November 26, 2026</div>
   <nav><a href="#uk">Українська</a><a href="#en">English</a></nav>
 
   <section class="lang" id="uk" lang="uk">
@@ -73,7 +73,8 @@
       <li><b>Сповіщення й точні будильники</b> — щоб вчасно нагадувати про події.</li>
       <li><b>Календар (лише читання)</b> — лише якщо ви самі натиснули «Перенести з іншого календаря»: Pobut читає календарі телефона (Google, Samsung та інші), які ви вибрали, і копіює їхні події до себе — назву, час, повтор, місце, опис, нагадування, імена учасників. Це відбувається на телефоні один раз; Pobut нічого не змінює в інших календарях і нікуди ці дані не надсилає (окрім вашої власної синхронізації, якщо вона ввімкнена). Файл календаря .ics, який ви відкриваєте в Pobut, читається так само — лише на телефоні. Дозвіл можна забрати в налаштуваннях Android будь-коли.</li>
       <li><b>Календар (зміни) — лише з увімкненим «Оновлювати автоматично» (Pobut Premium).</b> Якщо ви самі пов'язали календар телефона з календарем Pobut, застосунок і далі читає цей календар і записує в нього те, що ви робите в Pobut: нові події, зміни назви, часу, повтору, місця й опису, видалення. Усе відбувається в календарі на вашому пристрої; далі його відправляє у ваш обліковий запис (Google, Samsung, Outlook) сам календар телефона — Pobut до серверів цих служб не звертається і нам нічого не надсилає. Інших календарів, крім вибраних, Pobut не змінює. Зв'язок можна розірвати будь-коли (затиснути календар → «Розірвати зв'язок») або забрати дозвіл у налаштуваннях Android — події лишаться в обох місцях.</li>
-      <li><b>Камера</b> не запитується: фото знімає системна камера на ваш запит. Сканування документів у нотатках — сервіс Google Play (ML Kit), що працює на телефоні: скани стають фото в нотатці й нікуди не надсилаються.</li>
+      <li><b>Камера</b> не запитується: фото знімає системна камера на ваш запит. Сканування документів у нотатках — сервіс Google Play (ML Kit), що працює на телефоні: скани стають фото в нотатці й нікуди не надсилаються. «Текст з фото» в нотатках розпізнає той самий сервіс на телефоні, без інтернету: фото нікуди не надсилається, а знайдений текст зберігається разом із нотаткою (щоб працював пошук).</li>
+      <li><b>Мікрофон</b> — лише коли ви самі натискаєте запис чи диктування в нотатці. <b>Аудіозапис</b> зберігається файлом у нотатці на телефоні (і у вашій власній синхронізації, якщо вона ввімкнена); Pobut нікуди його не надсилає й записує лише поки відкритий на екрані. <b>Диктування</b> виконує служба розпізнавання мовлення вашого телефона (зазвичай Google або Samsung): звук обробляє вона — на телефоні або на своїх серверах, за власною політикою конфіденційності; Pobut отримує від неї лише готовий текст, а сам звук не зберігає.</li>
       <li><b>Відбиток пальця / обличчя</b> — лише для замка застосунку, якщо ви його ввімкнули. Перевіряє сама система Android; Pobut не отримує й не зберігає біометричних даних. PIN зберігається лише як незворотний відбиток на телефоні.</li>
       <li><b>Запуск після перезавантаження</b> — щоб відновити нагадування після вимкнення телефона.</li>
       <li><b>Інтернет</b> — синхронізація з Google Диском, курси НБУ, прев'ю посилань і «Кишеня» в нотатках, перевірка VIN (NHTSA).</li>
@@ -87,6 +88,10 @@
     <h2>Зберігання й видалення</h2>
     <ul>
       <li>Видалені нотатки 30 днів лежать у «Недавно видалених», потім стираються назавжди.</li>
+      <li>Попередні версії нотаток («Історія версій») зберігаються 7 днів і лише на телефоні — на Диск вони не відправляються.</li>
+      <li>Журнал помилок (якщо застосунок закрився сам чи щось не спрацювало) зберігається 30 днів і лише на телефоні: у ньому час, версія застосунку,
+        назва помилки й місце в коді, без ваших нотаток, подій і сум. Він нікуди не надсилається сам; надіслати його розробнику можна лише власноруч —
+        листом зі своєї пошти (<i>Параметри → Про застосунок → Журнал помилок</i>), там же його можна переглянути й очистити.</li>
       <li>Видалення застосунку стирає всі дані з телефона.</li>
       <li>Копію на Диску можна видалити в Google Диску: <i>Налаштування → Керувати застосунками → Pobut → Видалити приховані дані застосунку</i>.
         Доступ застосунку до облікового запису можна відкликати на <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
@@ -146,7 +151,8 @@
       <li><b>Notifications and exact alarms</b> — to remind you about events on time.</li>
       <li><b>Calendar (read only)</b> — only if you tap “Bring from another calendar” yourself: Pobut reads the phone calendars you pick (Google, Samsung and others) and copies their events — title, time, repeat, location, description, reminders and guest names. This happens on the phone, once; Pobut changes nothing in your other calendars and sends this data nowhere (other than your own sync, if it is on). A calendar file (.ics) you open in Pobut is read the same way — on the phone only. You can revoke the permission in Android settings at any time.</li>
       <li><b>Calendar (changes) — only with “Keep in sync” turned on (Pobut Premium).</b> If you link a phone calendar with a Pobut calendar yourself, the app keeps reading that calendar and writes to it what you do in Pobut: new events, changes to the title, time, repeat, location and description, and deletions. All of this happens in the calendar on your device; from there the phone's own calendar sends it to your account (Google, Samsung, Outlook) — Pobut does not contact those services' servers and sends nothing to us. Pobut changes no calendars other than the ones you picked. You can unlink at any time (press and hold the calendar → “Unlink”) or revoke the permission in Android settings — the events stay in both places.</li>
-      <li><b>Camera</b> is not requested: photos are taken by the system camera when you ask. Document scanning in notes uses a Google Play service (ML Kit) that runs on the phone: scans become photos in the note and are not sent anywhere.</li>
+      <li><b>Camera</b> is not requested: photos are taken by the system camera when you ask. Document scanning in notes uses a Google Play service (ML Kit) that runs on the phone: scans become photos in the note and are not sent anywhere. “Text from photo” in notes is recognized by the same on-device service, offline: the photo is not sent anywhere, and the recognized text is stored with the note (so that search works).</li>
+      <li><b>Microphone</b> — only when you tap record or dictation in a note yourself. An <b>audio recording</b> is stored as a file in the note on the phone (and in your own sync, if it is on); Pobut does not send it anywhere and records only while it is open on the screen. <b>Dictation</b> is done by your phone's speech recognition service (usually Google or Samsung): that service processes the audio — on the phone or on its servers, under its own privacy policy; Pobut receives only the resulting text and does not keep the audio.</li>
       <li><b>Fingerprint / face</b> — only for the app lock, if you turn it on. Android itself checks it; Pobut never receives or stores biometric data. The PIN is kept only as an irreversible hash on the phone.</li>
       <li><b>Run at startup</b> — to restore reminders after the phone restarts.</li>
       <li><b>Internet</b> — Google Drive sync, NBU exchange rates, link previews and Pocket in notes, and the NHTSA VIN check.</li>
@@ -160,6 +166,10 @@
     <h2>Retention and deletion</h2>
     <ul>
       <li>Deleted notes stay in “Recently deleted” for 30 days, then are erased permanently.</li>
+      <li>Earlier versions of notes (“Version history”) are kept for 7 days and only on the phone — they are not sent to Drive.</li>
+      <li>An error log (when the app closes on its own or something fails) is kept for 30 days and only on the phone: it holds the time, the app version,
+        the error name and the place in the code, without your notes, events or amounts. It is never sent anywhere by itself; you can send it to the developer
+        only yourself, by email from your own mail app (<i>Settings → About → Error log</i>), where you can also view and clear it.</li>
       <li>Uninstalling the app erases all data from the phone.</li>
       <li>To delete the Drive copy, open Google Drive: <i>Settings → Manage apps → Pobut → Delete hidden app data</i>.
         You can revoke the app’s access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
